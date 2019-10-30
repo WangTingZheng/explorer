@@ -49,6 +49,7 @@ python run.py
 ## To-Do
 - deal function design for different file
 - ignore list
+- deal with permission denied bug
 
 
 
