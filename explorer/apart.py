@@ -18,4 +18,3 @@ def together(list, char):
         i += char
         res += i
     return res
-

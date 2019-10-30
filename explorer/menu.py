@@ -31,12 +31,12 @@ def menu(path, suffix_list):
         options.append(">back<")
         options.append(">quit<")
         selected = pick(options, title, multi_select=True, min_selection_count=1)
-        selected_deal(selected,list,suffix_list,path)
+        selected_deal(selected, list, suffix_list, path)
     else:
         print("The path is invaild!")
 
 
-def selected_deal(selected,list,suffix_list,path):
+def selected_deal(selected, list, suffix_list, path):
     selected_name = selected[0][0]
     selected_numb = selected[0][1]
     if selected_numb == len(list) - 1:

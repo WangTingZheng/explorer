@@ -25,13 +25,14 @@ def isCode(name, suffix):
     else:
         return False
 
+
 # judging the file whether belong to suffix list
 # name : file name likes test.py
 # suffix_list: a list of suffix you want to display, likes ['.py','.yml']
 # return :Ture(bool)
 def isSuffix(name, suffix_list):
     for i in suffix_list:
-        if isCode(name, i) is True:# if find a type meets a criterion, return True
+        if isCode(name, i) is True:  # if find a type meets a criterion, return True
             return True
     return False
 

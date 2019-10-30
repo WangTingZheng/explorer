@@ -1,9 +1,27 @@
 ## explorer
+
+
 > A simple python cli file browser
 
-![gif](./pic/gif.gif)
+![a](https://img.shields.io/pypi/v/file-explorer?style=flat-square)
+
+![gif.gif](https://i.loli.net/2019/10/30/yCE6UJ3sDFBTYcG.gif)
 
 ## usage
+
+### quick start
+```
+pip3 install file-explorer
+explorer ./ none
+```
+### command
+`explorer path list`
+- path: a path browser start to show
+- list: suffix list
+  - `none` : show all file
+  - `.py`: show python file
+  - `.py/.yml`: show python and yaml file
+## deveolp
 
 ### clone source code to your computer
 ```
@@ -30,7 +48,6 @@ python run.py
 - Press `enter` to confirm
 ## To-Do
 - deal function design for different file
-- package to pypi.ory
 - ignore list
 
 
