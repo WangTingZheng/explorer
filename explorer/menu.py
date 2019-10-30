@@ -35,7 +35,10 @@ def menu(path,suffix_list):
         if selected_numb == len(list) - 1:
             quit()
         elif selected_numb == len(list) - 2:
-            menu(get_upper_level(path),suffix_list)
+            if get_upper_level(path) is False:
+                menu(path,suffix_list)
+            else:
+                menu(get_upper_level(path),suffix_list)
         else:
             if isFolder(path+selected_name) is True:
                     menu(path+selected_name+'/',suffix_list)
