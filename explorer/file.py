@@ -107,11 +107,16 @@ def have_py_in(listname,suffix_list):
 
 def get_py_in_folder(path,suffix_list):
     tmp=[]
-    for i in os.listdir(path):
-        if os.path.isfile(path+i) is True:
-            if isSuffix(i,suffix_list) is True:
-                tmp.append(i)
-    return tmp
+    file_list=[]
+    if path=="D:/System Volume Information/":
+        return []
+    else:
+        file_list=os.listdir(path)
+        for i in file_list:
+            if os.path.isfile(path+i) is True:
+                if isSuffix(i,suffix_list) is True:
+                    tmp.append(i)
+        return tmp
 
 def have_py_in_folder(path,suffix_list):
     tmp=get_py_in_folder(path,suffix_list)

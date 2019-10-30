@@ -36,6 +36,7 @@ def menu(path,suffix_list):
             quit()
         elif selected_numb == len(list) - 2:
             if get_upper_level(path) is False:
+                print(path)
                 menu(path,suffix_list)
             else:
                 menu(get_upper_level(path),suffix_list)
