@@ -17,7 +17,7 @@ from explorer.menu import *
 lists=[".py"]
 menu("./",lists)
 ```
-`lists` is a setting list to let cli display the file you want. `lists=['.py']` means only dislay python file and folder that have python file, `[]` means display all
+`lists` is a setting list to let cli display the file you want. `lists=['.py']` means only display python file and folder that have python file, `[]` means display all
 
 ### run
 
