@@ -1,4 +1,4 @@
 from explorer.menu import *
 
-lists=['.py']
+lists=[]
 menu("./",lists)
