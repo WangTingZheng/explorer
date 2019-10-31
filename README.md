@@ -1,7 +1,11 @@
 # <p align="center">💼explorer:  a simple python cli file browser</p>
 
-![a](https://img.shields.io/pypi/v/file-explorer?style=flat-square)
 
+<p align="center">
+     <a href="">
+        <img src="https://img.shields.io/pypi/v/file-explorer?style=flat-square">
+    </a>
+</p>
 <p align="center">
     <a href="">
         <img src="https://i.loli.net/2019/10/31/y8ZrdnUbVSkAz2G.gif">
