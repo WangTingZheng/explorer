@@ -2,3 +2,4 @@ build
 dist
 .vscode
 explorer/__pycache__/explorer.cpython-37.pyc
+pic
