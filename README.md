@@ -5,6 +5,15 @@
      <a href="">
         <img src="https://img.shields.io/pypi/v/file-explorer?style=flat-square">
     </a>
+    <a href="">
+        <img src="https://img.shields.io/badge/updating-brightgreen.svg">
+    </a>
+    <a href="https://github.com/python/cpython">
+        <img src="https://img.shields.io/badge/Python-3.7.4-blue.svg">
+    </a>
+    <a href="https://github.com/WangTingZheng/explorer">
+    <img src="https://img.shields.io/github/stars/WangTingZheng/explorer.svg?style=social">
+        </a>
 </p>
 <p align="center">
     <a href="">
