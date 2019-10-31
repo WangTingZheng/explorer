@@ -1,4 +1,4 @@
-# <p align="center">💼explorer:  a simple python cli file browser</p>
+# <p align="center">📂explorer:  a simple python cli file browser</p>
 
 
 <p align="center">
