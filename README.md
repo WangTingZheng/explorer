@@ -35,7 +35,7 @@ explorer ./ none
   - `none` : show all file
   - `.py`: show python file
   - `.py/.yml`: show python and yaml file
-## Deveolp
+## Develop
 
 ### clone source code to your computer
 ```
