@@ -30,7 +30,7 @@ def menu(path, suffix_list):
         options = list
         options.append(">back<")
         options.append(">quit<")
-        selected = pick(options, title, multi_select=True, min_selection_count=1)
+        selected = pick(options, title, multiselect=True, min_selection_count=1)
         selected_deal(selected, list, suffix_list, path)
     else:
         print("The path is invaild!")
